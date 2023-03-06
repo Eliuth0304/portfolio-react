@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { HashLink as NavLink } from 'react-router-hash-link';
 import Typed from 'react-typed';
