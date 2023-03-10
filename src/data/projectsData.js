@@ -1,160 +1,88 @@
-import eight from "../assets/svg/projects/eight.svg";
-import seven from "../assets/svg/projects/seven.svg";
-import six from "../assets/svg/projects/six.svg";
-import five from "../assets/svg/projects/five.svg";
-import four from "../assets/svg/projects/four.svg";
-import three from "../assets/svg/projects/three.svg";
-import two from "../assets/svg/projects/two.svg";
-import one from "../assets/svg/projects/one.svg";
-import nine from "../assets/svg/projects/nine.svg";
-import ten from "../assets/svg/projects/ten.svg";
-import eleven from "../assets/svg/projects/eleven.svg";
-import twelve from "../assets/svg/projects/twelve.svg";
-import thirteen from "../assets/svg/projects/thirteen.svg";
-import sample from "../assets/svg/projects/sample.svg";
-
-
-
+import eight from "../assets/svg/projects/8.png";
+import seven from "../assets/svg/projects/7.png";
+import six from "../assets/svg/projects/2.png";
+import five from "../assets/svg/projects/6.png";
+import four from "../assets/svg/projects/5.png";
+import three from "../assets/svg/projects/4.png";
+import two from "../assets/svg/projects/3.png";
+import one from "../assets/svg/projects/1.png";
 
 export const projectsData = [
   {
     id: 1,
-    projectName: "MentorYard",
+    projectName: "EatClub",
     projectDesc:
-      "A platform to connect school students to industry professionals.",
-    tags: ["React", "React Bootstrap", "Node Js", "Cloudinary", "FireBase"],
-    code: "https://github.com/vishalkrsoni",
-    demo: "https://mentoryard-a16c0.web.app/",
+      "EatClub shows you nearby restaurants, with spare tables, offering last minute deals.",
+    tags: ["React", "React Native", "Node Js", "GraphQL", "FireBase"],
+    code: "https://github.com/darkhorse930304",
+    demo: "https://eatclub.com.au/",
     image: one,
   },
   {
     id: 2,
-    projectName: "React Portfolio",
+    projectName: "Rubix",
     projectDesc:
-      "A Personal Portfolio website to showcase all my details and projects at one place.",
-    tags: ["React", "Redux", "Express", "Material Ui", "Node Js"],
-    code: "https://github.com/vishalkrsoni",
+      "RUBIX is a data and analytics IT service company that offers data strategy, business intelligence, and artificial intelligence services.",
+    tags: ["React", "Web3.js", "Golang", "GraphQL"],
+    code: "https://github.com/darkhorse930304",
     demo: "https://portfolio-vishalkrsoni.web.app/",
     image: two,
   },
   {
     id: 3,
-    projectName: "Talkies",
-    projectDesc: `A movie platform which can handle a load of 10000 users. 
-        Where users can watch their favourite movies and Web-Series.
-        I've also implemented subscription model and Stripe payment module`,
-    tags: ["React", "CSS", "Material Ui", "Node Js", "Redux"],
-    code: "https://github.com/vishalkrsoni",
-    demo: "https://talkies-8bc89.web.app/",
+    projectName: "Willowmore",
+    projectDesc: `WILLOWMORE is a Security and Sustainability tech company that provides an access control management platform for enterprise and government critical sites.`,
+    tags: ["Java", "Servlet", "ERP System"],
+    code: "https://github.com/darkhorse930304",
+    demo: "https://rubix.com.au/",
     image: three,
   },
   {
     id: 4,
-    projectName: "The Tech Geek",
-    projectDesc: `A Technical blogging website`,
-    tags: ["React", "CSS", "Material Ui", "Node Js", "AWS"],
-    code: "https://github.com/vishalkrsoni",
-    demo: "https://euphonious-halva-ae97a5.netlify.app/",
+    projectName: "Halo Solutions",
+    projectDesc: `Halo's cutting-edge technologies are leading the world of public safety with a new wave of solutions for incident, task & staff management.`,
+    tags: ["React", "Django", "GraphQL", "AWS"],
+    code: "https://github.com/darkhorse930304",
+    demo: "https://www.halosolutions.com/",
     image: four,
   },
   {
     id: 5,
-    projectName: "My Moments",
-    projectDesc: `A website to post your pictures and location as a memory.`,
-    tags: ["React", "CSS", "Material Ui", "Node Js", "GeoLocation"],
-    code: "https://github.com/vishalkrsoni",
-    demo: "https://talkies-8bc89.web.app/",
+    projectName: "SoCash",
+    projectDesc: `SoCash is a service to get cash via the Standard Chartered Mobile Banking App at retail shops island-wide which have been converted into cash points.`,
+    tags: ["Flutter", "Gradle", "Stripe API", "Firebase"],
+    code: "https://github.com/darkhorse930304",
+    demo: "https://www.socash.io/",
     image: five,
   },
 
   {
     id: 6,
-    projectName: "Chit Chat",
-    projectDesc: `A Real time Chatting application using socket io.`,
-    tags: ["React", "CSS", "Material Ui", "Node Js", "Socket Io"],
-    code: "https://github.com/vishalkrsoni",
-    demo: "https://talkies-8bc89.web.app/",
-    image: six,
+    projectName: "Gladly",
+    projectDesc: `Gladly is a customer-centric help desk platform for e-Com brands.`,
+    tags: ["React", "AWS", "Node Js", "MongoDB", "Docker"],
+    code: "https://github.com/darkhorse930304",
+    demo: "https://www.gladly.com/",
+    image: eight,
   },
+
   {
     id: 7,
-    projectName: "Easy-Buy",
-    projectDesc: `An E-commerce application which can handle heavy load of users. 
-        with implemented subscription model and payment module`,
-    tags: ["React", "CSS", "Material Ui", "Node Js", "Stripe", "Cloudinary"],
-    code: "https://github.com/vishalkrsoni",
-    demo: "https://talkies-8bc89.web.app/",
+    projectName: "Csiro",
+    projectDesc: `At CSIRO, we solve the greatest challenges using innovative science and technology. `,
+    tags: ["React", "Web3.js", "Solidity", "Ethereum", "GraphQL"],
+    code: "https://github.com/darkhorse930304",
+    demo: "https://www.csiro.au/",
     image: seven,
   },
   {
-    id: 8,
-    projectName: "Easy-Buy8",
-    projectDesc: `An E-commerce application which can handle heavy load of users. 
-        with implemented subscription model and payment module`,
-    tags: ["React", "CSS", "Material Ui", "Node Js", "Stripe", "Cloudinary"],
-    code: "https://github.com/vishalkrsoni",
-    demo: "https://talkies-8bc89.web.app/",
-    image: eight,
-  },
-  {
-    id: 9,
-    projectName: "Easy-Buy9",
-    projectDesc: `An E-commerce application which can handle heavy load of users. 
-        with implemented subscription model and payment module`,
-    tags: ["React", "CSS", "Material Ui", "Node Js", "Stripe", "Cloudinary"],
-    code: "https://github.com/vishalkrsoni",
-    demo: "https://talkies-8bc89.web.app/",
-    image: nine,
-  },
-  {
-    id: 10,
-    projectName: "Easy-Buy10",
-    projectDesc: `An E-commerce application which can handle heavy load of users. 
-        with implemented subscription model and payment module`,
-    tags: ["React", "CSS", "Material Ui", "Node Js", "Stripe", "Cloudinary"],
-    code: "https://github.com/vishalkrsoni",
-    demo: "https://talkies-8bc89.web.app/",
-    image: ten,
-  },
-  {
-    id: 11,
-    projectName: "Easy-Buy11",
-    projectDesc: `An E-commerce application which can handle heavy load of users. 
-        with implemented subscription model and payment module`,
-    tags: ["React", "CSS", "Material Ui", "Node Js", "Stripe", "Cloudinary"],
-    code: "https://github.com/vishalkrsoni",
-    demo: "https://talkies-8bc89.web.app/",
-    image: eleven,
-  },
-  {
-    id: 12,
-    projectName: "Easy-Buy12",
-    projectDesc: `An E-commerce application which can handle heavy load of users. 
-        with implemented subscription model and payment module`,
-    tags: ["React", "CSS", "Material Ui", "Node Js", "Stripe", "Cloudinary"],
-    code: "https://github.com/vishalkrsoni",
-    demo: "https://talkies-8bc89.web.app/",
-    image: twelve,
-  },
-  {
-    id: 13,
-    projectName: "Easy-Buy122",
-    projectDesc: `An E-commerce application which can handle heavy load of users. 
-        with implemented subscription model and payment module`,
-    tags: ["React", "CSS", "Material Ui", "Node Js", "Stripe", "Cloudinary"],
-    code: "https://github.com/vishalkrsoni",
-    demo: "https://talkies-8bc89.web.app/",
-    image: thirteen,
-  },
-  {
-    id: 14,
-    projectName: "Easy-Buy122",
-    projectDesc: `An E-commerce application which can handle heavy load of users. 
-        with implemented subscription model and payment module`,
-    tags: ["React", "CSS", "Material Ui", "Node Js", "Stripe", "Cloudinary"],
-    code: "https://github.com/vishalkrsoni",
-    demo: "https://talkies-8bc89.web.app/",
-    image: sample,
+    id: 7,
+    projectName: "Shiok Meats",
+    projectDesc: `Shiok Meats is cellular aquaculture and cell-based meat company.`,
+    tags: ["React", "Node.js", "AWS", "Docker"],
+    code: "https://github.com/darkhorse930304",
+    demo: "https://shiokmeats.com/",
+    image: six,
   },
 ];
 

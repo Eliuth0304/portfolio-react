@@ -1,12 +1,12 @@
 export const aboutData = {
   title: "Who Am I ?",
   description1:
-    "My name is Vishal Soni. I'm a Full-Stack developer based in Bangalore, India.",
-  description2: ` I'm a creative thinker, adept in software development and
-                    working with various data structures, striving to make the
-                    world a more unified and connected place.
-                    A quick learner with a passion to learn and explore new technologies,
-                    and keep improving my Problem Solving skills. 
-      My current stack includes Nodejs, React, Redux, Bootstrap, 
-       Material UI, MongoDB, Mysql, Java, PostgreSQL, Firebase, Cloudinary, AWS etc.`,
+    "I’m My Lim, a full-stack programmer and visual performer based in Singapore.",
+  description2: ` My vast experience as a certified Full Stack Engineer and software developer 
+  gives me the adequate tech-savvy background needed to dominate the Tech industry. 
+  My background and reputation are built on a steady track record of neat, eco-friendly 
+  cohesive code with SOLID & DRY architectures leveraging several modern technical stacks 
+  throughout various fields including Web/mobile & Security. 
+      My current stack includes Java, Python, PHP, Rust, Nodejs, React, Vue, Angular, Flutter, Tailwind CSS 
+       MUI, MongoDB, PostgreSQL, Firebase, GCP, AWS etc.`,
 };
